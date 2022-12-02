@@ -1,0 +1,96 @@
+<!--
+Quintana_Artamendi_Mikel_LMSGI02 Tarea evaluativa 2 (80%)  02/11/2022
+https://docs.google.com/document/d/1gjPR8YBV8CzIdBwUhBnLnenYqeGV3lAW6pMmdfZKras/edit?usp=sharing
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es un sitio web para los amantes de la cocina que se quieran iniciar en este fascinante mundo. Cocina facil y rico.">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Cocina facil - Noticias</title>
+    <style>
+        h1{
+            font-size: 42px;
+            color: white;
+        }
+        #cabecera h2{
+            color: white;
+        }
+        
+        .caja{
+            display: flex;
+            width: 80%;
+            height: 400px;
+            flex-direction: column;
+            
+            align-items: center;
+
+        }
+        .caja img {
+            width: 60%;
+            height: auto;
+        }
+        #contenido a {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="cabecera">
+            <h2>RECETAS FACILES DE COCINA</h2>
+            <h1>Noticias</h1>
+        </div>
+        <div id="menu">
+            
+            <div class="menuBtn"><a href="index.html">INICIO</a></div>
+           <div class="menuBtn"> <a href="recetas.html">RECETAS</a></div>
+            <a href="noticias.html"><div class="menuBtn">NOTICIAS</a></div>
+            <div class="menuBtn"><a href="contacto.html">CONTACTO</a></div>
+        </div>
+        <div id="cuerpo">
+            <div id="sidebar">
+                <u><h2>TIPOS RECETAS</h2></u>
+                <div class="noticiaSidebar">
+                    <a href="#"><img src="imagenes/carne.jpeg" alt="los ocho productos mas engañosos"></a>
+                    <p><u><a href="#">Con carne</a></u></p>
+                </div>
+
+                <div class="noticiaSidebar">
+                    <a href="#"><img src="imagenes/vegetariana.jpeg" alt="los ocho productos mas engañosos"></a>
+                    <p><u><a href="#">Vegetarianas</a></u></p>
+                </div>
+
+                <div class="noticiaSidebar">
+                    <a href="#"><img src="imagenes/vegana.jpeg" alt="los ocho productos mas engañosos"></a>
+                    <p><u><a href="#">Veganas</a></u></p>
+                </div>
+
+            </div>
+
+            <div id="contenido">
+                <div class="caja">
+                    <img src="imagenes/noticia1_2.jpg" alt="">
+                    <p>Galletas para el colesterol, jamón 'bienstar', cremas de bogavante con 0,5% de bogavante... la nutricionista Beatriz Robles selecciona los productos que más confunden con reclamos al límite de la verdad. <a href="https://elcomidista.elpais.com/elcomidista/2022/11/14/articulo/1668436757_015620.html">Leer más...</a></p>
+                </div>
+                <div class="caja">
+                    <img src="imagenes/noticia2_2.jpg" alt="">
+                    <p>Así es el jefe mundial de la Guía Michelin <a href="https://www.expansion.com/directivos/estilo-vida/rincones-gastronomicos/2022/11/27/638364be468aeb1d068b45e1.html">Leer más...</a></p>
+                </div>
+                <div class="caja">
+                    <img src="imagenes/noticia3_2.jpg" alt="">
+                    <p>Bar Danako de Irun: 'Bokalao', un pintxo ganador <a href="https://www.noticiasdegipuzkoa.eus/sociedad/2022/11/27/bar-danako-irun-bokalao-pintxo-6259285.html">Leer más...</a></p>
+                </div>
+            </div>
+
+        </div>
+        <div id="footer">
+           <p style="font-size: 16px;">©copyright Mikel Quintana Artamendi - BIRTLH - DAM - Lenguaje de marcas y sistemas de gestión de la información</p> 
+        </div>
+    </div>
+    
+</body>
+</html>

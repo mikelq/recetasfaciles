@@ -1,0 +1,152 @@
+html{
+            padding: 30px;
+            background-image:url(../imagenes/fondo_pattern.jpg);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+        }
+       
+        #main {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            
+            
+        }
+        #cabecera {
+            display: flex;
+            width: 100%;
+            height: 250px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image:url(../imagenes/titulo_bg.jpg) ;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: 30%;
+           
+        }
+        #menu {
+            width: 100%;
+            height: 100px;
+            background-color: white;
+            border: 2px solid black;
+            margin-top: 20px;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+        }
+            .menuBtn{
+                display: flex;
+                width: 150px;
+                height: 80px;
+                background-color: rgb(141, 137, 137);
+                border: 2px solid rgb(0, 0, 0);
+                padding: 2px;
+                margin: 20px;
+                align-items: center;
+                justify-content: center;
+            }
+            .menuBtn:hover{
+                background-color: rgb(255, 255, 255);
+                border: 2px solid rgb(0, 0, 0);
+                transform: scale(1.1);
+                box-shadow: 2px 2px black ;
+                text-decoration: underline;
+                transition:300ms ;
+            }
+            .menuBtn:hover a{
+                color: black;
+            }
+
+        #cuerpo {
+            max-width: 100%;
+            height: auto;
+            display: flex;
+            justify-content:space-between;
+            align-items:flex-end;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+        }
+            #contenido {
+                display: flex;
+                width: 77%;
+                height: 1300px;
+                background-image: url(../imagenes/contenido_bg.jpg);
+                background-repeat: no-repeat;
+                background-size: 140%;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border: 2px solid black;
+                font-size: 22px;
+            }
+                #contenido p {
+                    margin: 30px;
+                }
+                #contenido a{
+                    color: black;
+                }
+                #img_principal {
+                    width: 70%;
+                    height: auto;
+                    margin-top: -200px;
+                }
+                #recetasTemporada{
+                    display: flex;
+                    width: 100%;
+                    height: auto;
+                    justify-content: center;
+                    align-content: center;
+                }
+                .receta {
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    flex-direction: column;
+                    width:20%;
+                    height: 300px;
+                    overflow: hidden;
+                }
+                .receta img {
+                    width:80%;
+                    height: auto;
+                }
+                
+                
+
+        #sidebar {
+            width: 20%;
+            height: 1300px;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            align-items:center;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid black;
+        }
+            .noticiaSidebar {
+                width: 80%;
+                height: auto;
+            }
+            .noticiaSidebar img {
+                width: 100%;
+            }
+            #sidebar a {color: black;}
+        
+        #footer {
+            display: flex;
+            width: 100%;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid black;
+        }
+
+        h1,a {
+            color: beige;
+        }
+        a{
+            text-decoration: none;
+        }

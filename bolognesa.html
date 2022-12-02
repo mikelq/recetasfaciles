@@ -1,0 +1,126 @@
+<!--
+Quintana_Artamendi_Mikel_LMSGI02 Tarea evaluativa 2 (80%)  02/11/2022
+https://docs.google.com/document/d/1gjPR8YBV8CzIdBwUhBnLnenYqeGV3lAW6pMmdfZKras/edit?usp=sharing
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es un sitio web para los amantes de la cocina que se quieran iniciar en este fascinante mundo. Cocina facil y rico.">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Cocina facil</title>
+    <style>
+        h1{
+            font-size: 42px;
+            color: white;
+        }
+        #cabecera h2{
+            color: white;
+        }
+        #contenido h2,ul,ol{
+            color: white;
+        }
+        #contenido img{
+            width: 60%;
+        }
+        #preparacion {
+            display:flex;
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            align-content: center;
+        }
+        #ingredientes {
+            width: 45%;
+            height: 400px;
+            padding: 20px;
+            background-image: url(imagenes/ingredientes.jpg);
+            background-size: 60%;
+            background-repeat: no-repeat;
+            background-position: 0px -50px;
+
+            
+        }
+        #pasos {
+            width: 45%;
+            height: auto;
+            padding: 20px;
+            background-image: url(imagenes/blackboard.jpg);
+            background-size: 60%;
+            background-repeat: no-repeat;
+            background-position: 0px 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="cabecera">
+            <h2>RECETAS FACILES DE COCINA</h2>
+            <h1>ESPAGUETTI BOLOGNESA</h1>
+        </div>
+        <div id="menu">
+            
+            <div class="menuBtn"><a href="index.html">INICIO</a></div>
+           <div class="menuBtn"> <a href="recetas.html">RECETAS</a></div>
+            <a href="noticias.html"><div class="menuBtn">NOTICIAS</a></div>
+            <div class="menuBtn"><a href="contacto.html">CONTACTO</a></div>
+        </div>
+        <div id="cuerpo">
+            <div id="sidebar">
+                <u><h2>TIPOS RECETAS</h2></u>
+                <div class="noticiaSidebar">
+                    <a href="#"><img src="imagenes/carne.jpeg" alt="los ocho productos mas engañosos"></a>
+                    <p><u><a href="#">Con carne</a></u></p>
+                </div>
+
+                <div class="noticiaSidebar">
+                    <a href="#"><img src="imagenes/vegetariana.jpeg" alt="los ocho productos mas engañosos"></a>
+                    <p><u><a href="#">Vegetarianas</a></u></p>
+                </div>
+
+                <div class="noticiaSidebar">
+                    <a href="#"><img src="imagenes/vegana.jpeg" alt="los ocho productos mas engañosos"></a>
+                    <p><u><a href="#">Veganas</a></u></p>
+                </div>
+
+            </div>
+
+            <div id="contenido">
+                <img id="img_principal" src="imagenes/bolognesa2.jpeg" alt="espaguetti bolognesa">
+                <p>Una receta sencilla para hacerla con los mas peques de la casa y que seguro que repetirás</p>
+                
+               <div id="preparacion">
+                <div id="ingredientes">
+                    <h2>ingredientes</h2>
+                    <ul>
+                        <li>Pasta fresca</li>
+                        <li>Carne picada</li>
+                        <li>Tomate</li>
+                        <li>Cebolla</li>
+                        <li>ajo</li>
+                    </ul>
+                </div>
+                <div id="pasos">
+                    <h2>pasos</h2>
+                    <ol>
+                        <li>Cocer la pasta aldente</li>
+                        <li>sofreimos el ajo y la cebolla</li>
+                        <li>agregamos el tomate</li>
+                        <li>agregamos la salsa</li>
+                        
+                    </ol>
+                </div>
+
+               </div>
+            </div>
+
+        </div>
+        <div id="footer">
+           <p style="font-size: 16px;">©copyright Mikel Quintana Artamendi - BIRTLH - DAM - Lenguaje de marcas y sistemas de gestión de la información</p> 
+        </div>
+    </div>
+    
+</body>
+</html>

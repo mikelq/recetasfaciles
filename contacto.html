@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este es un sitio web para los amantes de la cocina que se quieran iniciar en este fascinante mundo. Cocina facil y rico.">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Cocina facil - Contacto </title>
+    <style>
+        #sidebar{
+            display: none;
+        }       
+        #contenido {
+            height: 700px;
+            width: 80%;
+        }
+        #contenido h2 {
+            color: black;
+        }
+        h2 {
+            color: white;
+        }
+        #contenido p {
+            margin: 0px;
+            
+        }
+        #cuerpo {
+            
+            justify-content: center;
+        }
+        textarea {
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="cabecera">
+            <h2>RECETAS FACILES DE COCINA</h2>
+            <h1>CONTACTO</h1>
+        </div>
+        <div id="menu">
+            
+            <div class="menuBtn"><a href="index.html">INICIO</a></div>
+            <div class="menuBtn"> <a href="recetas.html">RECETAS</a></div>
+            <a href="noticias.html"><div class="menuBtn">NOTICIAS</a></div>
+            <div class="menuBtn"><a href="contacto.html">CONTACTO</a></div>
+        </div>
+        <div id="cuerpo">
+            <div id="sidebar">
+                <u><h2>NOTICIAS</h2></u>
+                <div class="noticiaSidebar">
+                    <a href="https://elcomidista.elpais.com/elcomidista/2022/11/14/articulo/1668436757_015620.html"><img src="imagenes/noticia1.jpg" alt="los ocho productos mas engañosos"></a>
+                    <p><u><a href="https://elcomidista.elpais.com/elcomidista/2022/11/14/articulo/1668436757_015620.html">los ocho productos mas engañosos del mercado</a></u></p>
+                </div>
+
+                <div class="noticiaSidebar">
+                    <a href="https://www.expansion.com/directivos/estilo-vida/rincones-gastronomicos/2022/11/27/638364be468aeb1d068b45e1.html"><img src="imagenes/noticia2.jpg" alt="los ocho productos mas engañosos"></a>
+                    <p><u><a href="https://www.expansion.com/directivos/estilo-vida/rincones-gastronomicos/2022/11/27/638364be468aeb1d068b45e1.html">Así es el jefe mundial de la guia michelin</a></u></p>
+                </div>
+
+                <div class="noticiaSidebar">
+                    <a href="https://www.noticiasdegipuzkoa.eus/sociedad/2022/11/27/bar-danako-irun-bokalao-pintxo-6259285.html"><img src="imagenes/noticia3.jpg" alt="los ocho productos mas engañosos"></a>
+                    <p><u><a href="https://www.noticiasdegipuzkoa.eus/sociedad/2022/11/27/bar-danako-irun-bokalao-pintxo-6259285.html">Bar danako de Irun: "Bokalao", un pintxo ganador</a></u></p>
+                </div>
+
+            </div>
+
+            <div id="contenido">
+                <form name="comentario" action="contacto@recetasfaciles.com" method="post">
+                    <h2>PONTE EN CONTACTO CON NOSOTROS</h2>
+                    <p><label for="name">Nombre:</label></p>
+                    <input type="text">
+
+                    <p><label for="surname">Apellido:</label></p>
+                    <input type="text">
+
+                    <p><label for="email">Correo electrónico:</label></p>
+                    <input type="email">
+
+                    <p>¿Nos escribes sobre una receta? Elige sobre cual</p>
+                    <select name="receta" id="receta">
+                        <option value="espagettis">Espaguetti</option>
+                        <option value="ensaladilla">Ensaladilla</option>
+                        <option value="seitan">Seitán con patatas</option>
+                        <option selected value="ninguna">Ninguna receta</option>
+                    </select>
+
+                    <p><label for="text">Tu mensaje:</label></p>
+                    <textarea name="comment" placeholder="Escribe tu mensaje aquí"></textarea>
+                    <br>
+                    <input type="submit">
+
+                </form>
+            </div>
+
+        </div>
+        <div id="footer">
+           <p style="font-size: 16px;">©copyright Mikel Quintana Artamendi - BIRTLH - DAM - Lenguaje de marcas y sistemas de gestión de la información</p> 
+        </div>
+    </div>
+    
+</body>
+</html>
